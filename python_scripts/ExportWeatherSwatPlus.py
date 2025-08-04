@@ -315,7 +315,10 @@ def CsvToSwatPlus(df_list,csv_path:str,weather_var:str,save_path:str): # This fu
             f.write(f"{stat_name}: written by ExportWeatherSwatPlus.py - Jose Teran \n")
             f.write(f"nbyr\ttstep\tlat\tlon\telev \n")
             f.write(f"{nbyr}\t{0}\t{lat:.3f}\t{lon:.3f}\t{elev:.3f}\n")
-            df.to_csv(f, index=False, header=None, sep="\t", float_format="%.2f",lineterminator='\n') 
+            df.to_csv(f, index=False, header=None, sep="\t", float_format="%.2f",lineterminator='\n')
+            
+        
+        c+=1 
         
         print(f"File {save_path}/{stat_name}.{weather_var} successfully saved")
         
@@ -459,5 +462,6 @@ def CsvToSwatPlusTemp(df_list,csv_path:str,weather_var:str,save_path:str): # Thi
             f.write(f"{nbyr}\t{0}\t{lat:.3f}\t{lon:.3f}\t{elev:.3f}\n")
             df.to_csv(f, index=False, header=None, sep="\t", float_format="%.2f",lineterminator='\n') 
         
+        c+=1 
         print(f"File {save_path}/{stat_name}.{weather_var} successfully saved")
 # %%
