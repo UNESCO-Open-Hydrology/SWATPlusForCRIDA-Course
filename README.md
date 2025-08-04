@@ -29,3 +29,37 @@
       ```bash
       conda env list
       ```
+## Working with Jupyter Notebooks in VS Code
+
+To run the notebooks in this project using the `swatcrida_env` environment, follow these steps:
+
+### 1. Install Visual Studio Code
+
+- Download and install [Visual Studio Code](https://code.visualstudio.com/).
+- During installation, make sure to check the boxes:
+  - **"Add to PATH"**
+  - **"Install Code command in PATH"** (on macOS)
+
+### 2. Install Python and Jupyter Extensions in VS Code
+
+- Open VS Code.
+- Go to the **Extensions** tab (left sidebar or `Ctrl+Shift+X`).
+- Install the following extensions:
+  - **Python**
+  - **Jupyter**
+
+### 3. Add the Conda Environment to Jupyter
+
+In your Anaconda Prompt or terminal:
+(You can skip this and VS Code will install it automatically if you try to run the notebook anyways)
+```bash
+conda activate swatcrida_env
+conda install ipykernel
+python -m ipykernel install --user --name=swatcrida_env
+```
+
+### 4. Open and Run Notebooks in VS Code
+
+- Open a `.ipynb` notebook file in VS Code.
+- In the top-right kernel dropdown, select **`swatcrida_env`**.
+- Run cells using `Shift+Enter` or the ▶️ button.
