@@ -6,25 +6,26 @@
 
 ## Using anaconda to install the environment to run this scripts
 
-**Install** [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) if you haven't already.
+ a) **Install** [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) if you haven't already.
 
-Open the Anaconda Prompt and run these commands:
+ b) **Open the Anaconda Prompt** (on Windows) or a terminal (on macOS/Linux):
 
-1. **Create the environment** from the provided `.yml` file:
+
+   1. **Create the environment** from the provided `.yml` file:
+     
    
-
-    ```bash
-    conda env create -f swatcrida_env.yml
-    ```
-
-2. **Activate** the environment:
-
-    ```bash
-    conda activate swatcrida_env
-    ```
-
-3. *(Optional)* **Verify** the environment was created:
-
-    ```bash
-    conda env list
-    ```
+      ```bash
+      conda env create -f swatcrida_env.yml
+      ```
+   
+   2. **Activate** the environment:
+   
+      ```bash
+      conda activate swatcrida_env
+      ```
+   
+   3. *(Optional)* **Verify** the environment was created:
+   
+      ```bash
+      conda env list
+      ```
