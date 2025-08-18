@@ -6,7 +6,7 @@
  Please find the download data .txt file on the data folder, there, you can download the entire folder with all the required data. Due to it's large size and the GitHub limits, they were not uploaded directly.
 
 
-# Install QGIS (>3.34) and SWAT+ Tools
+## Install QGIS (>3.34) and SWAT+ Tools
  - Please follow the instructions on this link: https://swatplus.gitbook.io/docs/installation
  - Or the video tutorial: https://www.youtube.com/watch?v=2oBnX5MtJIg
 
