@@ -1,3 +1,7 @@
 data/CaseStudy
 data/weather_example
-data/exes
+data/swat_exe
+python_scripts/cc-changes-clim-space-ind_v2.ipynb
+python_scripts/__pycache__
+*.pyc
+*.zip

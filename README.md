@@ -3,7 +3,7 @@
 
 
 ## Get the data to test it
- Please find the download data .txt file on the data folder, there, you can download the entire folder with all the required data. Due to it's large size and the GitHub limits, they were not uploaded directly.
+ Please find the data required to follow the course in this repository: https://doi.org/10.5281/zenodo.18735811, there, you can download the entire folder with all the required data. Due to it's large size and the GitHub limits, they were not uploaded directly. Please unzip the folder contents into the 'data' directory. Make sure it follows the path structure specified in scripts.
 
 
 ## Install QGIS (>3.34) and SWAT+ Tools
