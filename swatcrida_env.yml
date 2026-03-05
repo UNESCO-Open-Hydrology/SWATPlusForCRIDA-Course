@@ -1,4 +1,4 @@
-name: jopato_env
+name: swatcrida_env
 channels:
   - defaults
 dependencies:
@@ -155,4 +155,3 @@ dependencies:
       - widgetsnbextension==4.0.13
       - xarray==2025.1.2
       - xyzservices==2025.1.0
-prefix: C:\Users\JT000008\AppData\Local\anaconda3\envs\jopato_env
